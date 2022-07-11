@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteRule tickets/([0-9]+)$ tickets.php?id=$1 [L]
+RewriteRule tickets$ tickets.php [L]
+
+RewriteRule users/([0-9]+)$ users.php?id=$1 [L]
+RewriteRule users$ users.php [L]
+
+RewriteRule auth/logout$ auth.php?logout [L]
+RewriteRule auth$ auth.php [L]
