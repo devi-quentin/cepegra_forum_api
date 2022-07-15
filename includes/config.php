@@ -1,7 +1,7 @@
 <?php
 define('DB_USER', 'root');
-define('DB_PASS', 'root');
-define('DB_HOST', 'localhost:8889');
+define('DB_PASS', '');
+define('DB_HOST', 'localhost');
 define('DB_NAME', 'cepegra_forum');
 
 define('MODE', 'dev');
